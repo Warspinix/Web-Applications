@@ -1,0 +1,27 @@
+.divleft {
+    border-radius: 20px;
+    background-image: linear-gradient(lightgreen, lightblue);
+    margin: 22px;
+    padding: 15px;
+    float: left; 
+    width: 44%;
+    height: 430px;
+}
+.divright {
+    border-radius: 20px;
+    background-image: linear-gradient(lightgreen, lightblue);
+    margin: 22px;
+    padding: 15px;
+    float: left; 
+    width: 46%;
+    height: 430px;
+}
+.button1 {
+    font-family: "Trebuchet MS";
+    background-color: #76d8d8;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

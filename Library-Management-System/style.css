@@ -1,0 +1,22 @@
+body {
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+}
+#center {
+    text-align: center;
+}
+.divheading1 {
+    font-size: 28px;
+    width: 96%;
+    height: 140px;
+    margin-left: auto;
+	margin-right: auto;
+}
+#logout {
+    background-color:crimson; 
+    color:white;
+}

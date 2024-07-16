@@ -1,0 +1,69 @@
+form {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border-radius: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 16px;
+}
+#search {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 75px;
+    width: 90%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+p {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+#button {
+    border: 1px solid black;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 35%;
+    cursor: pointer;
+}
+button {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 70px;
+    width: 18.5%;
+    cursor: pointer;
+}
+table, th, td {
+	border: 3px solid rgb(53, 143, 131);
+	background-color: rgba(144, 238, 144, 0);
+	border-collapse: collapse;
+	table-layout: fixed;
+    width: 60%;
+    font-size: 16px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	text-align: center;	
+}
+tr {
+	height: 70px;
+}

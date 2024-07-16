@@ -1,0 +1,18 @@
+form {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border-radius: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    font-size: 16px;
+}
+input, select, button {
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+}

@@ -1,0 +1,63 @@
+form {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center; 
+    font-size: 16px;
+}
+#type {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 60px;
+    width: 60%;
+    text-align: center;
+}
+#renew {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 60px;
+    width: 60%;
+    text-align: center;
+    cursor: pointer;
+}
+.divbody {
+    background-color: rgb(141, 236, 141);
+    border-radius: 20px;
+    width: 45%;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+button {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 70px;
+    width: 21.5%;
+    cursor: pointer;
+}
+table, th, td {
+	border: 3px solid rgb(53, 143, 131);
+	background-color: rgba(144, 238, 144, 0);
+	border-collapse: collapse;
+	table-layout: fixed;
+    width: 45%;
+    font-size: 16px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	text-align: center;	
+}
+tr {
+	height: 50px;
+}

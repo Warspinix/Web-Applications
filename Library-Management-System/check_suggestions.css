@@ -1,0 +1,23 @@
+p {
+    font-size: 30px;
+    text-align: center;
+}
+table, th, td {
+	border: 3px solid rgb(53, 143, 131);
+	background-color: rgba(144, 238, 144, 0);
+	border-collapse: collapse;
+	table-layout: fixed;
+    width: 70%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+th {
+    font-size: 20px;
+}
+td {
+	text-align: center;	
+    font-size: 18px;
+}
+tr {
+	height: 120px;
+}

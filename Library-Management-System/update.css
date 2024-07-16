@@ -1,0 +1,28 @@
+form {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border-radius: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 16px;
+    text-align: center;
+}
+input {
+    border: 3px aquamarine;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    width: 15%;
+    height: 50px;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}

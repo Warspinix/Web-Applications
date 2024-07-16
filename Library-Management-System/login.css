@@ -1,0 +1,41 @@
+form {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border-radius: 20px;
+    width: 25%;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: "Trebuchet MS";
+}
+input, button {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Trebuchet MS";
+  }
+:-moz-placeholder {
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+.vl {
+    border-right: 3px solid black;
+    height: 20px;
+}
+p {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}

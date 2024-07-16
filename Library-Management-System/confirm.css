@@ -1,0 +1,35 @@
+.divbody {
+    background-image: linear-gradient(rgb(80, 195, 234), rgb(85, 164, 107));
+    border-radius: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 25px;
+    text-align: center;
+}
+table, th, td {
+	border: 3px solid rgb(53, 143, 131);
+	background-color: rgba(144, 238, 144, 0);
+	border-collapse: collapse;
+	table-layout: fixed;
+    width: 90%;
+    font-size: 16px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	text-align: center;	
+}
+tr {
+	height: 50px;
+}
+button {
+    border: 3px aquamarine;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    border-radius: 5px;
+    height: 70px;
+    width: 20%;
+    cursor: pointer;
+}

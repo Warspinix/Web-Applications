@@ -3,6 +3,7 @@ A collection of my foundational web applications showcasing a range of front-end
 ## Contents
 1) Library Management System
 2) Basic Applications
+
    - Odd or Even
    - Calculator
    - Factorial

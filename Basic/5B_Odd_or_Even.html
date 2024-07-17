@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Odd or Even</title>
+	<link rel="stylesheet" href="general_style.css">
+	<link rel="stylesheet" href="form_style.css">
+</head>
+
+<body>
+	<br>
+	<div class="center">
+		<h1>Odd or Even</h1>
+	</div>
+	<br>
+	<form>
+		<br>
+		<label for="no">Enter a Number (maximum of 10 digits): </label>
+		<input type="text" id="no" name="no" maxlength="10" size="10" autofocus required>
+		<br><br>
+
+		<input type="reset" value="Reset">
+		<br><br>
+
+		<input type="button" value="Find" onclick="odd_or_even()">
+		
+		<p id="ans" style="color:red"></p>
+	</form>
+	
+	<script>
+		
+		function odd_or_even() {
+			var n = parseInt(document.getElementById("no").value);
+			var ans;
+			if (n%2 == 0)
+				ans = "Even";
+			else
+				ans = "Odd";
+			document.getElementById("ans").innerHTML = ans; 
+		}
+	
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title>Styling with Javascript</title>
+	<link rel = "stylesheet" href = "general_style.css">
+	<link rel = "stylesheet" href = "form_style.css">
+	<style>
+		input {
+			font-size: 20px;
+		}
+		p {
+			border: 10px solid black;
+			padding: 20px;
+			margin: 20px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<p id="styler" style="font-size:20px;">
+	The Infinity Stones are fictional 
+	cosmic artifacts that appear in Marvel 
+	Comics and the Marvel Cinematic Universe (MCU). 
+	In the Marvel universe, these stones are immensely 
+	powerful and each represents a different aspect of 
+	the universe. When combined, they grant the holder 
+	god-like powers and control over various fundamental forces.
+
+	In the Marvel Cinematic Universe, 
+	there are six Infinity Stones, 
+	each with its own unique color and power, which are 
+	the Space Stone (Blue/Tesseract), the Mind Stone 
+	(Yellow/Vision), the Reality Stone (Red/Aether), the 
+	Power Stone (Purple/Orb), the Time Stone (Green/Eye of 
+	Agamotto), and the Soul Stone (Orange/Vormir).
+
+	The Infinity Stones play a central role in several films, including 
+	"The Avengers", "Guardians of the Galaxy", "Avengers: Infinity War",  
+	and "Avengers: Endgame". The primary antagonist, Thanos, seeks 
+	to collect all six Infinity Stones to carry out his plan of 
+	balancing the universe by wiping out half of all life.
+	
+	</p>	
+
+	<form style="font-size: 20px;">
+		
+		Change Styling: 
+		<input type="button" value="Bold" onclick="changeBold()">
+		<input type="button" value="Italics" onclick="changeItalics()">
+		<br><br>
+		
+		Change Font Style: 
+		<input type="button" value="Georgia" onclick="changeFontGeorgia()">
+		<input type="button" value="Pacifico" onclick="changeFontPacifico()">
+		<br><br>
+
+		<label for="fc">Enter New Font Colour: </label>
+		<input type="color" id="fc" name="fc" size=15><br><br>
+		<input type="button" value="Change Font Colour" onclick="changeFontColor()">
+		<br><br>
+
+		<label for="bc">Enter New Background Colour: </label>
+		<input type="color" id="bc" name="bc" size=15><br><br>
+		<input type="button" value="Change Background Color" onclick="changeBackgroundColor()">
+		<br>
+		
+	</form>
+
+	<script>
+		var m = document.getElementById("styler").style;
+		
+		function changeBold() {
+			m.fontWeight="bold";
+		}
+		function changeItalics() {
+			m.fontStyle="italic";
+		}
+		function changeFontGeorgia() {
+			m.fontFamily="georgia";
+		}
+		function changeFontPacifico() {
+			m.fontFamily="pacifico";
+		}
+		function changeFontColor() {
+			var f = document.getElementById("fc").value;
+			m.color = f;
+		}
+		function changeBackgroundColor() {
+			var b = document.getElementById("bc").value;
+			m.backgroundColor = b;
+		}
+	</script>
+</body>
+</html>

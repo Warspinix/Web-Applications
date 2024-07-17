@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Fibonacci Series</title>
+	<link rel="stylesheet" href="general_style.css">
+	<link rel="stylesheet" href="form_style.css">
+</head>
+
+<body>
+	<br>
+	<div class="center">
+		<h1>Fibonacci Series</h1>
+	</div>
+	<br><br>
+
+	<form>
+		<br>
+		<label for="terms">Enter the No. of Terms (1-99): </label>
+		<input type="text" id="terms" name="terms" maxlength="2" size="2" autofocus required>
+		<br><br>
+
+		<input type="reset" value="Reset">
+		<br><br>
+
+		<input type="button" value="Display Fibonacci Series" onclick="fibonacci()">
+		
+		<p id="series"></p>
+	</form>
+
+	<script>
+		
+		function fibonacci() {
+			var n = parseInt(document.getElementById("terms").value);
+			var i, c, a = 0, b = 1;
+			if (n == 1) {
+				var s = a;
+			}
+			else if (n == 2) {
+				var s = a+", "+b;
+			}
+			else if (n > 2) {
+				var s = a+", "+b+", ";
+				for (i = 0; i < n-2; i++) {
+					c = a + b;
+					a = b;
+					b = c;
+					if (i !== n-3)
+						s += c+", ";
+					else
+						s += c;
+				}
+			}
+			else {
+				document.getElementById("series").innerHTML = "Invalid Input";
+				return;
+			}	
+			document.getElementById("series").innerHTML = s;	
+		}
+
+	</script>
+
+</body>
+</html>
+	
